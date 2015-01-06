@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>5.4.0</version>
+		<relativePath />
+	</parent>
+
+	<artifactId>imagej-javadoc</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<name>SciJava Javadocs</name>
+	<description>All the Javadocs for SciJava.</description>
+	<inceptionYear>2015</inceptionYear>
+
+	<scm>
+		<connection>scm:git:git://github.com/scijava/scijava-javadoc</connection>
+		<developerConnection>scm:git:git@github.com:scijava/scijava-javadoc</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/scijava/scijava-javadoc</url>
+	</scm>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/scijava/scijava-javadoc/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/SciJava-javadoc/</url>
+	</ciManagement>
+	<repositories>
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!-- SciJava Common - https://github.com/scijava/scijava-common -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-common</artifactId>
+		</dependency>
+
+		<!-- SciJava Common: SLF4J Logging - https://github.com/scijava/scijava-log-slf4j -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-log-slf4j</artifactId>
+		</dependency>
+
+		<!-- SciJava Plugins: Commands - https://github.com/scijava/scijava-plugins-commands -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-plugins-commands</artifactId>
+		</dependency>
+
+		<!-- SciJava Plugins: Platforms - https://github.com/scijava/scijava-plugins-platforms -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-plugins-platforms</artifactId>
+		</dependency>
+
+		<!-- SciJava Plugins: Text: Markdown - https://github.com/scijava/scijava-plugins-text-markdown -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-plugins-text-markdown</artifactId>
+		</dependency>
+
+		<!-- SciJava Plugins: Text: Plain - https://github.com/scijava/scijava-plugins-text-plain -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-plugins-text-plain</artifactId>
+		</dependency>
+
+		<!-- SciJava UI: AWT - https://github.com/scijava/scijava-ui-awt -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-ui-awt</artifactId>
+		</dependency>
+
+		<!-- SciJava UI: Swing - https://github.com/scijava/scijava-ui-swing -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-ui-swing</artifactId>
+		</dependency>
+
+		<!-- Scripting: Beanshell - https://github.com/scijava/scripting-beanshell -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-beanshell</artifactId>
+		</dependency>
+
+		<!-- Scripting: Clojure - https://github.com/scijava/scripting-clojure -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-clojure</artifactId>
+		</dependency>
+
+		<!-- Scripting: Groovy - https://github.com/scijava/scripting-groovy -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-groovy</artifactId>
+		</dependency>
+
+		<!-- Scripting: Java - https://github.com/scijava/scripting-java -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-java</artifactId>
+		</dependency>
+
+		<!-- Scripting: Javascript - https://github.com/scijava/scripting-javascript -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-javascript</artifactId>
+		</dependency>
+
+		<!-- Scripting: JRuby - https://github.com/scijava/scripting-jruby -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-jruby</artifactId>
+		</dependency>
+
+		<!-- Scripting: Jython - https://github.com/scijava/scripting-jython -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-jython</artifactId>
+		</dependency>
+
+		<!-- Scripting: MATLAB - https://github.com/scijava/scripting-matlab -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-matlab</artifactId>
+		</dependency>
+
+		<!-- Scripting: R - https://github.com/scijava/scripting-r -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-r</artifactId>
+		</dependency>
+
+		<!-- Scripting: Scala - https://github.com/scijava/scripting-scala -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-scala</artifactId>
+		</dependency>
+
+		<!-- Swing Checkbox Tree - https://github.com/scijava/swing-checkbox-tree -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>swing-checkbox-tree</artifactId>
+		</dependency>
+
+		<!-- MiniMaven - https://github.com/scijava/minimaven -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>minimaven</artifactId>
+		</dependency>
+
+		<!-- Native Lib Loader - https://github.com/scijava/native-lib-loader -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>native-lib-loader</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
