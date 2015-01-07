@@ -136,16 +136,20 @@
 		</dependency>
 
 		<!-- Scripting: R - https://github.com/scijava/scripting-r -->
+<!-- NB: Disabled until scripting-r is released.
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-r</artifactId>
 		</dependency>
+-->
 
 		<!-- Scripting: Scala - https://github.com/scijava/scripting-scala -->
+<!-- NB: Disabled until scripting-scala is released.
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-scala</artifactId>
 		</dependency>
+-->
 
 		<!-- Swing Checkbox Tree - https://github.com/scijava/swing-checkbox-tree -->
 		<dependency>
