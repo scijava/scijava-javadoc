@@ -45,6 +45,12 @@
 			<artifactId>scijava-common</artifactId>
 		</dependency>
 
+		<!-- SciJava Expression Parser - https://github.com/scijava/scijava-expression-parser -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-expression-parser</artifactId>
+		</dependency>
+
 		<!-- SciJava Common: SLF4J Logging - https://github.com/scijava/scijava-log-slf4j -->
 		<dependency>
 			<groupId>org.scijava</groupId>
