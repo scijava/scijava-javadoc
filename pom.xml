@@ -43,6 +43,7 @@
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-common</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- SciJava Config - https://github.com/scijava/scijava-config -->
@@ -56,96 +57,112 @@
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-expression-parser</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- SciJava Common: SLF4J Logging - https://github.com/scijava/scijava-log-slf4j -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-log-slf4j</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- SciJava Plugins: Commands - https://github.com/scijava/scijava-plugins-commands -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-plugins-commands</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- SciJava Plugins: Platforms - https://github.com/scijava/scijava-plugins-platforms -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-plugins-platforms</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- SciJava Plugins: Text: Markdown - https://github.com/scijava/scijava-plugins-text-markdown -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-plugins-text-markdown</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- SciJava Plugins: Text: Plain - https://github.com/scijava/scijava-plugins-text-plain -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-plugins-text-plain</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- SciJava UI: AWT - https://github.com/scijava/scijava-ui-awt -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-ui-awt</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- SciJava UI: Swing - https://github.com/scijava/scijava-ui-swing -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-ui-swing</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Scripting: Beanshell - https://github.com/scijava/scripting-beanshell -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-beanshell</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Scripting: Clojure - https://github.com/scijava/scripting-clojure -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-clojure</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Scripting: Groovy - https://github.com/scijava/scripting-groovy -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-groovy</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Scripting: Java - https://github.com/scijava/scripting-java -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-java</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Scripting: Javascript - https://github.com/scijava/scripting-javascript -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-javascript</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Scripting: JRuby - https://github.com/scijava/scripting-jruby -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-jruby</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Scripting: Jython - https://github.com/scijava/scripting-jython -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-jython</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Scripting: MATLAB - https://github.com/scijava/scripting-matlab -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-matlab</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Scripting: R - https://github.com/scijava/scripting-r -->
@@ -153,6 +170,7 @@
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-r</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 -->
 
@@ -161,6 +179,7 @@
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-scala</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 -->
 
@@ -168,18 +187,21 @@
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>swing-checkbox-tree</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- MiniMaven - https://github.com/scijava/minimaven -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>minimaven</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Native Lib Loader - https://github.com/scijava/native-lib-loader -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>native-lib-loader</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
