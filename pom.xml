@@ -45,6 +45,13 @@
 			<artifactId>scijava-common</artifactId>
 		</dependency>
 
+		<!-- SciJava Config - https://github.com/scijava/scijava-config -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-config</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
 		<!-- SciJava Expression Parser - https://github.com/scijava/scijava-expression-parser -->
 		<dependency>
 			<groupId>org.scijava</groupId>
