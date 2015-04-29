@@ -1,4 +1,4 @@
-![](http://jenkins.imagej.net/job/SciJava-javadoc/lastBuild/badge/icon)
+[![](http://jenkins.imagej.net/job/SciJava-javadoc/lastBuild/badge/icon)](http://jenkins.imagej.net/job/SciJava-javadoc/)
 
 This project aggregates the javadoc of SciJava components.
 
