@@ -1,3 +1,5 @@
+![](http://jenkins.imagej.net/job/SciJava-javadoc/lastBuild/badge/icon)
+
 This project aggregates the javadoc of SciJava components.
 
 They are built and published to:
