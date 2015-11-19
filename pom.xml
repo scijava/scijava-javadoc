@@ -22,7 +22,6 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/scijava/scijava-javadoc</url>
 	</scm>
-
 	<issueManagement>
 		<system>GitHub Issues</system>
 		<url>https://github.com/scijava/scijava-javadoc/issues</url>
@@ -31,6 +30,7 @@
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/SciJava-javadoc/</url>
 	</ciManagement>
+
 	<repositories>
 		<repository>
 			<id>imagej.public</id>
@@ -204,5 +204,4 @@
 			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
-
 </project>
