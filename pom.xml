@@ -180,6 +180,12 @@
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-java</artifactId>
 			<scope>runtime</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>com.sun</groupId>
+					<artifactId>tools</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<!-- Scripting: Javascript - https://github.com/scijava/scripting-javascript -->
