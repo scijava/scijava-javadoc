@@ -14,7 +14,18 @@
 
 	<name>SciJava Javadocs</name>
 	<description>All the Javadocs for SciJava.</description>
+	<url>http://javadoc.imagej.net/SciJava/</url>
 	<inceptionYear>2015</inceptionYear>
+	<organization>
+		<name>SciJava</name>
+		<url>http://www.scijava.org/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<developers>
 		<developer>
@@ -40,6 +51,16 @@
 		</contributor>
 	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>SciJava</name>
+			<subscribe>https://groups.google.com/group/scijava</subscribe>
+			<unsubscribe>https://groups.google.com/group/scijava</unsubscribe>
+			<post>scijava@googlegroups.com</post>
+			<archive>https://groups.google.com/group/scijava</archive>
+		</mailingList>
+	</mailingLists>
+
 	<scm>
 		<connection>scm:git:git://github.com/scijava/scijava-javadoc</connection>
 		<developerConnection>scm:git:git@github.com:scijava/scijava-javadoc</developerConnection>
@@ -54,6 +75,13 @@
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/SciJava-javadoc/</url>
 	</ciManagement>
+
+	<properties>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Board of Regents of the University of
+Wisconsin-Madison</license.copyrightOwners>
+		<license.projectName>SciJava libraries for scientific computing in Java.</license.projectName>
+	</properties>
 
 	<repositories>
 		<repository>
@@ -205,4 +233,15 @@
 			<artifactId>native-lib-loader</artifactId>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<skipIfEmpty>false</skipIfEmpty>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
