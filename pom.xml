@@ -103,12 +103,6 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scijava-config</artifactId>
 		</dependency>
 
-		<!-- SciJava Expression Parser - https://github.com/scijava/scijava-expression-parser -->
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scijava-expression-parser</artifactId>
-		</dependency>
-
 		<!-- SciJava Common: SLF4J Logging - https://github.com/scijava/scijava-log-slf4j -->
 		<dependency>
 			<groupId>org.scijava</groupId>
@@ -214,6 +208,12 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scripting-scala</artifactId>
 		</dependency>
 -->
+
+		<!-- Parsington - https://github.com/scijava/parsington -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>parsington</artifactId>
+		</dependency>
 
 		<!-- Swing Checkbox Tree - https://github.com/scijava/swing-checkbox-tree -->
 		<dependency>
