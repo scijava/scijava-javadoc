@@ -103,6 +103,12 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scijava-config</artifactId>
 		</dependency>
 
+		<!-- SciJava Grab - https://github.com/scijava/scijava-grab -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-grab</artifactId>
+		</dependency>
+
 		<!-- SciJava Common: SLF4J Logging - https://github.com/scijava/scijava-log-slf4j -->
 		<dependency>
 			<groupId>org.scijava</groupId>
@@ -193,21 +199,17 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scripting-matlab</artifactId>
 		</dependency>
 
-		<!-- Scripting: R - https://github.com/scijava/scripting-r -->
-<!-- NB: Disabled until scripting-r is released.
+		<!-- Scripting: Renjin - https://github.com/scijava/scripting-renjin -->
 		<dependency>
 			<groupId>org.scijava</groupId>
-			<artifactId>scripting-r</artifactId>
+			<artifactId>scripting-renjin</artifactId>
 		</dependency>
--->
 
 		<!-- Scripting: Scala - https://github.com/scijava/scripting-scala -->
-<!-- NB: Disabled until scripting-scala is released.
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-scala</artifactId>
 		</dependency>
--->
 
 		<!-- Parsington - https://github.com/scijava/parsington -->
 		<dependency>
