@@ -14,7 +14,7 @@
 
 	<name>SciJava Javadocs</name>
 	<description>All the Javadocs for SciJava.</description>
-	<url>http://javadoc.imagej.net/SciJava/</url>
+	<url>https://javadoc.scijava.org/SciJava/</url>
 	<inceptionYear>2015</inceptionYear>
 	<organization>
 		<name>SciJava</name>
@@ -72,8 +72,8 @@
 		<url>https://github.com/scijava/scijava-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/SciJava-javadoc/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/scijava/scijava-javadoc/</url>
 	</ciManagement>
 
 	<properties>
