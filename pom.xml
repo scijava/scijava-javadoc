@@ -234,6 +234,12 @@ Wisconsin-Madison</license.copyrightOwners>
 			<groupId>org.scijava</groupId>
 			<artifactId>native-lib-loader</artifactId>
 		</dependency>
+
+		<!-- Batch Processor - https://github.com/scijava/batch-processor -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>batch-processor</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
