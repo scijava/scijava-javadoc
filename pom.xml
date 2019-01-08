@@ -91,6 +91,30 @@ Wisconsin-Madison</license.copyrightOwners>
 	</repositories>
 
 	<dependencies>
+		<!-- Batch Processor - https://github.com/scijava/batch-processor -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>batch-processor</artifactId>
+		</dependency>
+
+		<!-- MiniMaven - https://github.com/scijava/minimaven -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>minimaven</artifactId>
+		</dependency>
+
+		<!-- Native Lib Loader - https://github.com/scijava/native-lib-loader -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>native-lib-loader</artifactId>
+		</dependency>
+
+		<!-- Parsington - https://github.com/scijava/parsington -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>parsington</artifactId>
+		</dependency>
+
 		<!-- SciJava Common - https://github.com/scijava/scijava-common -->
 		<dependency>
 			<groupId>org.scijava</groupId>
@@ -121,6 +145,12 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scijava-plugins-commands</artifactId>
 		</dependency>
 
+		<!-- SciJava Plugins: IO: Table - https://github.com/scijava/scijava-plugins-io-table -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-plugins-io-table</artifactId>
+		</dependency>
+
 		<!-- SciJava Plugins: Platforms - https://github.com/scijava/scijava-plugins-platforms -->
 		<dependency>
 			<groupId>org.scijava</groupId>
@@ -137,6 +167,12 @@ Wisconsin-Madison</license.copyrightOwners>
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-plugins-text-plain</artifactId>
+		</dependency>
+
+		<!-- SciJava Table - https://github.com/scijava/scijava-table -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-table</artifactId>
 		</dependency>
 
 		<!-- SciJava UI: AWT - https://github.com/scijava/scijava-ui-awt -->
@@ -211,34 +247,10 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scripting-scala</artifactId>
 		</dependency>
 
-		<!-- Parsington - https://github.com/scijava/parsington -->
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>parsington</artifactId>
-		</dependency>
-
 		<!-- Swing Checkbox Tree - https://github.com/scijava/swing-checkbox-tree -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>swing-checkbox-tree</artifactId>
-		</dependency>
-
-		<!-- MiniMaven - https://github.com/scijava/minimaven -->
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>minimaven</artifactId>
-		</dependency>
-
-		<!-- Native Lib Loader - https://github.com/scijava/native-lib-loader -->
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>native-lib-loader</artifactId>
-		</dependency>
-
-		<!-- Batch Processor - https://github.com/scijava/batch-processor -->
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>batch-processor</artifactId>
 		</dependency>
 	</dependencies>
 
