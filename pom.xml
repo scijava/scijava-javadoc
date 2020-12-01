@@ -116,10 +116,21 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>parsington</artifactId>
 		</dependency>
 
+		<!-- SciJava Cache - https://github.com/scijava/scijava-cache -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-cache</artifactId>
+		</dependency>
+
 		<!-- SciJava Common - https://github.com/scijava/scijava-common -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-common</artifactId>
+			<classifier>tests</classifier>
 		</dependency>
 
 		<!-- SciJava Config - https://github.com/scijava/scijava-config -->
@@ -134,10 +145,34 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scijava-grab</artifactId>
 		</dependency>
 
+		<!-- SciJava I/O: HTTP - https://github.com/scijava/scijava-io-http -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-io-http</artifactId>
+		</dependency>
+
+		<!-- SciJava Java 3D Tools - https://github.com/scijava/scijava-java3d -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-java3d</artifactId>
+		</dependency>
+
+		<!-- SciJava Listeners - https://github.com/scijava/scijava-listeners -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-listeners</artifactId>
+		</dependency>
+
 		<!-- SciJava Common: SLF4J Logging - https://github.com/scijava/scijava-log-slf4j -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-log-slf4j</artifactId>
+		</dependency>
+
+		<!-- SciJava Optional - https://github.com/scijava/scijava-optional -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-optional</artifactId>
 		</dependency>
 
 		<!-- SciJava Plugins: Commands - https://github.com/scijava/scijava-plugins-commands -->
@@ -170,6 +205,12 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scijava-plugins-text-plain</artifactId>
 		</dependency>
 
+		<!-- SciJava Search - https://github.com/scijava/scijava-search -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-search</artifactId>
+		</dependency>
+
 		<!-- SciJava Table - https://github.com/scijava/scijava-table -->
 		<dependency>
 			<groupId>org.scijava</groupId>
@@ -186,6 +227,12 @@ Wisconsin-Madison</license.copyrightOwners>
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-ui-swing</artifactId>
+		</dependency>
+
+		<!-- Script Editor - https://github.com/scijava/script-editor -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>script-editor</artifactId>
 		</dependency>
 
 		<!-- Scripting: Beanshell - https://github.com/scijava/scripting-beanshell -->
@@ -230,6 +277,12 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scripting-jython</artifactId>
 		</dependency>
 
+		<!-- Scripting: Kotlin - https://github.com/scijava/scripting-kotlin -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scripting-kotlin</artifactId>
+		</dependency>
+
 		<!-- Scripting: MATLAB - https://github.com/scijava/scripting-matlab -->
 		<dependency>
 			<groupId>org.scijava</groupId>
@@ -252,6 +305,12 @@ Wisconsin-Madison</license.copyrightOwners>
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>swing-checkbox-tree</artifactId>
+		</dependency>
+
+		<!-- UI Behaviour - https://github.com/scijava/ui-behaviour -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>ui-behaviour</artifactId>
 		</dependency>
 	</dependencies>
 
