@@ -1,4 +1,4 @@
-[![](https://travis-ci.org/scijava/scijava-javadoc.svg?branch=master)](https://travis-ci.org/scijava/scijava-javadoc)
+[![](https://github.com/scijava/scijava-javadoc/actions/workflows/build-main.yml/badge.svg)](https://github.com/scijava/scijava-javadoc/actions/workflows/build-main.yml)
 
 This project aggregates the javadoc of SciJava components.
 
